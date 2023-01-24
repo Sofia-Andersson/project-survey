@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+input[type="radio"] {
+  appearance: none;
+  height: 1.2rem;
+  width: 1.2rem;
+  border: 2px solid whitesmoke;
+  border-radius: 50%;
+  background-clip: content-box;
+  padding: 3px;
+  margin-right: 0.5rem;
+  accent-color: #FF6A88;
+}
+
+input[type="radio"]:checked {
+	background-color: rgb(92, 92, 92);
+}
+
+select {
+  min-width: 90%;
+  font-size: 20px;
+  background-color: white;
+  color:rgb(92, 92, 92);
+}
+
+.outerWrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFDE0E;
+}
