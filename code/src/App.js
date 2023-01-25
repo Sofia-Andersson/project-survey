@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-import { Name } from 'components/Name';
 import { PartyOptions } from 'components/PartyOptions';
 import { Gadgets } from 'components/Gadgets';
 import { Result } from 'components/Result';
 import { Guests } from 'components/Guests'
+import { Name } from 'components/Name';
 
 export const App = () => {
   const [step, setStep] = useState(1);
