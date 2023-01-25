@@ -10,7 +10,7 @@ export const Gadgets = ({ gadgets, setGadgets }) => {
   return (
     <form onSubmit={(event) => event.preventDefault()}>
       <label htmlFor="gadgets-radiobuttons">
-        <p>What is your favorite party gadget?</p>
+        <p>What is your favorite party gadget? </p>
         <div className="radioParent">
           {gadgetGroup.map((group) => (
             <label key={group} htmlFor="group">
